@@ -1,5 +1,6 @@
 # Real-Time Art Generator from Music
-Authored by: Sophia (Alivia) Castor, Eli Kerstein
+Developers: Sophia (Alivia) Castor, Eli Kerstein
+Net IDs: soc11, ewk33
 
 ## Project Overview
 This project demonstrates how to generate surrealist and abstract art in from audio spectogram inputs, such as:
@@ -7,7 +8,9 @@ This project demonstrates how to generate surrealist and abstract art in from au
 It leverages a self-trained Convolutional Neural Network (CNN) to predict mood metrics (valence and energy) from music spectrograms, which are then used to modulate a latent vector as a condition to a Generative Adversarial Network (GAN) generator, producing corresponding surrealist/abstract artwork. 
 The project comprises several Jupyter notebooks including ```CNN_Training.ipynb``` and ```GAN_Training.ipynb``` to train the models and ```GAN_Future_Implementations.ipynb``` which holds future development improvements, each covering different aspects of the workflow.
 
-This Repo contains the dataset used as well as some of our training graphs, logs, and snapshots of our final results-- aka the abstract images generated using the GAN from the CNN and spectograph conditions. Unfortunately, we were unable to upload the saved models for the CNN and GAN due to their large file size! 
+This repo contains the dataset used as well as some of our training graphs, logs, and snapshots of our final results-- aka the abstract images generated using the GAN from the CNN and spectograph conditions. Unfortunately, we were unable to upload the saved models for the CNN and GAN due to their large file size! 
+
+Within the repo, under ```resources/presentation_ppt```, there is a PDF to our presentation slides for this project.
 
 ## Features
 1. **Generating Spectrograms:**
