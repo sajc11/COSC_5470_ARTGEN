@@ -1,5 +1,6 @@
 # Real-Time Art Generator from Music
 Developers: Sophia (Alivia) Castor, Eli Kerstein
+
 Net IDs: soc11, ewk33
 
 ## Project Overview
