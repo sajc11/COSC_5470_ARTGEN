@@ -1,4 +1,6 @@
 # Real-Time Art Generator from Music
+Authored by: Sophia (Alivia) Castor, Eli Kerstein
+
 ## Project Overview
 This project demonstrates how to generate surrealist and abstract art in from audio spectogram inputs, such as:
 
