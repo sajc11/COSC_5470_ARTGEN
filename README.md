@@ -88,3 +88,18 @@ We hope such results will end up looking somewhat like this:
 1. **Advanced Audio Processing:** Incorporate additional audio features, such as rhythm patterns or pitch, to enrich the input data, leading to more dynamic art generation.
 2. **Web Integration:** Extend the recording interface to integrate directly with streaming platforms or music applications, allowing for continuous, dynamic art generation.
 3. **Interactive Art Gallery:** Archive and display generated art in an interactive gallery, integrating with web applications or augmented reality for enhanced user experiences.
+
+## Reference Papers
+Our main references for this project are as follows:
+
+MeloHarmony: Exploring Emotion in Crafting AI-Generated Music with Generative Adversarial Network Powered Harmony-
+ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575257 
+
+Generative artificial intelligence, human creativity, and art 
+https://academic.oup.com/pnasnexus/article/3/3/pgae052/7618478
+
+Transparency in Music-Generative AI: A Systematic Literature Review
+https://www.researchsquare.com/article/rs-3708077/v1
+
+
+
