@@ -1,0 +1,102 @@
+﻿Epoch 1/50
+21/21 [==============================] - 114s 5s/step - loss: 0.1934 - mean_squared_error: 0.1934 - val_loss: 0.1942 - val_mean_squared_error: 0.1942
+Epoch 2/50
+21/21 [==============================] - 98s 5s/step - loss: 0.1967 - mean_squared_error: 0.1967 - val_loss: 0.1959 - val_mean_squared_error: 0.1959
+Epoch 3/50
+21/21 [==============================] - 95s 4s/step - loss: 0.1939 - mean_squared_error: 0.1939 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 4/50
+21/21 [==============================] - 97s 5s/step - loss: 0.1909 - mean_squared_error: 0.1909 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 5/50
+21/21 [==============================] - 94s 4s/step - loss: 0.1922 - mean_squared_error: 0.1922 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 6/50
+21/21 [==============================] - 103s 5s/step - loss: 0.1928 - mean_squared_error: 0.1928 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 7/50
+21/21 [==============================] - 101s 5s/step - loss: 0.1943 - mean_squared_error: 0.1943 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 8/50
+21/21 [==============================] - 100s 5s/step - loss: 0.1979 - mean_squared_error: 0.1979 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 9/50
+21/21 [==============================] - 99s 5s/step - loss: 0.1872 - mean_squared_error: 0.1872 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 10/50
+21/21 [==============================] - 96s 5s/step - loss: 0.1960 - mean_squared_error: 0.1960 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 11/50
+21/21 [==============================] - 94s 4s/step - loss: 0.1950 - mean_squared_error: 0.1950 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 12/50
+21/21 [==============================] - 101s 5s/step - loss: 0.1985 - mean_squared_error: 0.1985 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 13/50
+21/21 [==============================] - 93s 4s/step - loss: 0.1962 - mean_squared_error: 0.1962 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 14/50
+21/21 [==============================] - 102s 5s/step - loss: 0.1971 - mean_squared_error: 0.1971 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 15/50
+21/21 [==============================] - 99s 5s/step - loss: 0.1963 - mean_squared_error: 0.1963 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 16/50
+21/21 [==============================] - 101s 5s/step - loss: 0.1986 - mean_squared_error: 0.1986 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 17/50
+21/21 [==============================] - 97s 4s/step - loss: 0.1964 - mean_squared_error: 0.1964 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 18/50
+21/21 [==============================] - 95s 4s/step - loss: 0.1881 - mean_squared_error: 0.1881 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 19/50
+21/21 [==============================] - 95s 4s/step - loss: 0.1961 - mean_squared_error: 0.1961 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 20/50
+21/21 [==============================] - 101s 5s/step - loss: 0.1961 - mean_squared_error: 0.1961 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 21/50
+21/21 [==============================] - 100s 5s/step - loss: 0.1969 - mean_squared_error: 0.1969 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 22/50
+21/21 [==============================] - 97s 5s/step - loss: 0.1919 - mean_squared_error: 0.1919 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 23/50
+21/21 [==============================] - 100s 5s/step - loss: 0.1912 - mean_squared_error: 0.1912 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 24/50
+21/21 [==============================] - 95s 5s/step - loss: 0.1962 - mean_squared_error: 0.1962 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 25/50
+21/21 [==============================] - 96s 5s/step - loss: 0.1923 - mean_squared_error: 0.1923 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 26/50
+21/21 [==============================] - 101s 5s/step - loss: 0.1928 - mean_squared_error: 0.1928 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 27/50
+21/21 [==============================] - 96s 4s/step - loss: 0.1965 - mean_squared_error: 0.1965 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 28/50
+21/21 [==============================] - 97s 5s/step - loss: 0.1911 - mean_squared_error: 0.1911 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 29/50
+21/21 [==============================] - 96s 5s/step - loss: 0.1940 - mean_squared_error: 0.1940 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 30/50
+21/21 [==============================] - 99s 5s/step - loss: 0.1887 - mean_squared_error: 0.1887 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 31/50
+21/21 [==============================] - 101s 5s/step - loss: 0.1936 - mean_squared_error: 0.1936 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 32/50
+21/21 [==============================] - 102s 5s/step - loss: 0.1951 - mean_squared_error: 0.1951 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 33/50
+21/21 [==============================] - 101s 5s/step - loss: 0.1938 - mean_squared_error: 0.1938 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 34/50
+21/21 [==============================] - 98s 5s/step - loss: 0.1965 - mean_squared_error: 0.1965 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 35/50
+21/21 [==============================] - 100s 5s/step - loss: 0.1998 - mean_squared_error: 0.1998 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 36/50
+21/21 [==============================] - 96s 4s/step - loss: 0.1934 - mean_squared_error: 0.1934 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 37/50
+21/21 [==============================] - 94s 4s/step - loss: 0.1902 - mean_squared_error: 0.1902 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 38/50
+21/21 [==============================] - 97s 5s/step - loss: 0.2244 - mean_squared_error: 0.2244 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 39/50
+21/21 [==============================] - 105s 5s/step - loss: 0.3313 - mean_squared_error: 0.3313 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 40/50
+21/21 [==============================] - 98s 5s/step - loss: 0.3624 - mean_squared_error: 0.3624 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 41/50
+21/21 [==============================] - 102s 5s/step - loss: 0.3768 - mean_squared_error: 0.3768 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 42/50
+21/21 [==============================] - 100s 5s/step - loss: 0.3720 - mean_squared_error: 0.3720 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 43/50
+21/21 [==============================] - 101s 5s/step - loss: 0.3656 - mean_squared_error: 0.3656 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 44/50
+21/21 [==============================] - 99s 5s/step - loss: 0.3677 - mean_squared_error: 0.3677 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 45/50
+21/21 [==============================] - 96s 5s/step - loss: 0.3891 - mean_squared_error: 0.3891 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 46/50
+21/21 [==============================] - 101s 5s/step - loss: 0.3647 - mean_squared_error: 0.3647 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 47/50
+21/21 [==============================] - 100s 5s/step - loss: 0.3558 - mean_squared_error: 0.3558 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 48/50
+21/21 [==============================] - 96s 5s/step - loss: 0.3492 - mean_squared_error: 0.3492 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 49/50
+21/21 [==============================] - 100s 5s/step - loss: 0.3252 - mean_squared_error: 0.3252 - val_loss: 0.3823 - val_mean_squared_error: 0.3823
+Epoch 50/50
+21/21 [==============================] - 100s 5s/step - loss: 0.2729 - mean_squared_error: 0.2729 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+/usr/local/lib/python3.10/dist-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(

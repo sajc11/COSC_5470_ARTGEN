@@ -1,0 +1,68 @@
+﻿Epoch 41: LearningRateScheduler setting learning rate to 4.504922344494844e-06.
+Epoch 41/50
+13/13 [==============================] - ETA: 0s - loss: 0.1909 - mean_squared_error: 0.1906 
+Epoch 41: val_loss improved from 0.19634 to 0.19631, saving model to best_model.keras
+13/13 [==============================] - 464s 38s/step - loss: 0.1909 - mean_squared_error: 0.1906 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 4.5049e-06
+
+
+Epoch 42: LearningRateScheduler setting learning rate to 4.0762224671198055e-06.
+Epoch 42/50
+13/13 [==============================] - ETA: 0s - loss: 0.1995 - mean_squared_error: 0.1992 
+Epoch 42: val_loss improved from 0.19631 to 0.19630, saving model to best_model.keras
+13/13 [==============================] - 435s 35s/step - loss: 0.1995 - mean_squared_error: 0.1992 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 4.0762e-06
+
+
+Epoch 43: LearningRateScheduler setting learning rate to 3.688318656713818e-06.
+Epoch 43/50
+13/13 [==============================] - ETA: 0s - loss: 0.1909 - mean_squared_error: 0.1906 
+Epoch 43: val_loss improved from 0.19630 to 0.19629, saving model to best_model.keras
+13/13 [==============================] - 440s 36s/step - loss: 0.1909 - mean_squared_error: 0.1906 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 3.6883e-06
+
+
+Epoch 44: LearningRateScheduler setting learning rate to 3.337328735142364e-06.
+Epoch 44/50
+13/13 [==============================] - ETA: 0s - loss: 0.1955 - mean_squared_error: 0.1952 
+Epoch 44: val_loss did not improve from 0.19629
+13/13 [==============================] - 153s 12s/step - loss: 0.1955 - mean_squared_error: 0.1952 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 3.3373e-06
+
+
+Epoch 45: LearningRateScheduler setting learning rate to 3.019740006493521e-06.
+Epoch 45/50
+13/13 [==============================] - ETA: 0s - loss: 0.1936 - mean_squared_error: 0.1933 
+Epoch 45: val_loss improved from 0.19629 to 0.19629, saving model to best_model.keras
+13/13 [==============================] - 320s 26s/step - loss: 0.1936 - mean_squared_error: 0.1933 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 3.0197e-06
+
+
+Epoch 46: LearningRateScheduler setting learning rate to 2.732373786784592e-06.
+Epoch 46/50
+13/13 [==============================] - ETA: 0s - loss: 0.1952 - mean_squared_error: 0.1949 
+Epoch 46: val_loss improved from 0.19629 to 0.19628, saving model to best_model.keras
+13/13 [==============================] - 347s 28s/step - loss: 0.1952 - mean_squared_error: 0.1949 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 2.7324e-06
+
+
+Epoch 47: LearningRateScheduler setting learning rate to 2.472354026394896e-06.
+Epoch 47/50
+13/13 [==============================] - ETA: 0s - loss: 0.1954 - mean_squared_error: 0.1951 
+Epoch 47: val_loss improved from 0.19628 to 0.19626, saving model to best_model.keras
+13/13 [==============================] - 442s 36s/step - loss: 0.1954 - mean_squared_error: 0.1951 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 2.4724e-06
+
+
+Epoch 48: LearningRateScheduler setting learning rate to 2.2370784336089855e-06.
+Epoch 48/50
+13/13 [==============================] - ETA: 0s - loss: 0.2023 - mean_squared_error: 0.2020 
+Epoch 48: val_loss improved from 0.19626 to 0.19625, saving model to best_model.keras
+13/13 [==============================] - 438s 35s/step - loss: 0.2023 - mean_squared_error: 0.2020 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 2.2371e-06
+
+
+Epoch 49: LearningRateScheduler setting learning rate to 2.02419232664397e-06.
+Epoch 49/50
+13/13 [==============================] - ETA: 0s - loss: 0.1965 - mean_squared_error: 0.1963 
+Epoch 49: val_loss did not improve from 0.19625
+13/13 [==============================] - 157s 12s/step - loss: 0.1965 - mean_squared_error: 0.1963 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 2.0242e-06
+
+
+Epoch 50: LearningRateScheduler setting learning rate to 1.8315649867872708e-06.
+Epoch 50/50
+13/13 [==============================] - ETA: 0s - loss: 0.1921 - mean_squared_error: 0.1918 
+Epoch 50: val_loss improved from 0.19625 to 0.19625, saving model to best_model.keras
+13/13 [==============================] - 319s 25s/step - loss: 0.1921 - mean_squared_error: 0.1918 - val_loss: 0.1963 - val_mean_squared_error: 0.1960 - lr: 1.8316e-06

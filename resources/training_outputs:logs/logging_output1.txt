@@ -1,0 +1,53 @@
+﻿Epoch 1/50
+26/26 [==============================] - ETA: 0s - loss: 0.3676 - mean_squared_error: 0.3676
+Epoch 1: val_loss improved from inf to 0.35651, saving model to best_model.keras
+26/26 [==============================] - 297s 11s/step - loss: 0.3676 - mean_squared_error: 0.3676 - val_loss: 0.3565 - val_mean_squared_error: 0.3565
+Epoch 2/50
+26/26 [==============================] - ETA: 0s - loss: 0.3347 - mean_squared_error: 0.3347
+Epoch 2: val_loss improved from 0.35651 to 0.28313, saving model to best_model.keras
+26/26 [==============================] - 282s 11s/step - loss: 0.3347 - mean_squared_error: 0.3347 - val_loss: 0.2831 - val_mean_squared_error: 0.2831
+Epoch 3/50
+26/26 [==============================] - ETA: 0s - loss: 0.2895 - mean_squared_error: 0.2895
+Epoch 3: val_loss did not improve from 0.28313
+26/26 [==============================] - 201s 8s/step - loss: 0.2895 - mean_squared_error: 0.2895 - val_loss: 0.2831 - val_mean_squared_error: 0.2831
+Epoch 4/50
+26/26 [==============================] - ETA: 0s - loss: 0.2908 - mean_squared_error: 0.2908
+Epoch 4: val_loss did not improve from 0.28313
+26/26 [==============================] - 202s 8s/step - loss: 0.2908 - mean_squared_error: 0.2908 - val_loss: 0.2831 - val_mean_squared_error: 0.2831
+Epoch 5/50
+26/26 [==============================] - ETA: 0s - loss: 0.2134 - mean_squared_error: 0.2134
+Epoch 5: val_loss improved from 0.28313 to 0.19597, saving model to best_model.keras
+26/26 [==============================] - 309s 12s/step - loss: 0.2134 - mean_squared_error: 0.2134 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 6/50
+26/26 [==============================] - ETA: 0s - loss: 0.1927 - mean_squared_error: 0.1927
+Epoch 6: val_loss did not improve from 0.19597
+26/26 [==============================] - 200s 8s/step - loss: 0.1927 - mean_squared_error: 0.1927 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 7/50
+26/26 [==============================] - ETA: 0s - loss: 0.1952 - mean_squared_error: 0.1952
+Epoch 7: val_loss did not improve from 0.19597
+26/26 [==============================] - 202s 8s/step - loss: 0.1952 - mean_squared_error: 0.1952 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 8/50
+26/26 [==============================] - ETA: 0s - loss: 0.1942 - mean_squared_error: 0.1942
+Epoch 8: val_loss did not improve from 0.19597
+26/26 [==============================] - 201s 8s/step - loss: 0.1942 - mean_squared_error: 0.1942 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 9/50
+26/26 [==============================] - ETA: 0s - loss: 0.1948 - mean_squared_error: 0.1948
+Epoch 9: val_loss did not improve from 0.19597
+26/26 [==============================] - 202s 8s/step - loss: 0.1948 - mean_squared_error: 0.1948 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 10/50
+26/26 [==============================] - ETA: 0s - loss: 0.1937 - mean_squared_error: 0.1937
+Epoch 10: val_loss did not improve from 0.19597
+26/26 [==============================] - 201s 8s/step - loss: 0.1937 - mean_squared_error: 0.1937 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 11/50
+26/26 [==============================] - ETA: 0s - loss: 0.1955 - mean_squared_error: 0.1955
+Epoch 11: val_loss did not improve from 0.19597
+26/26 [==============================] - 201s 8s/step - loss: 0.1955 - mean_squared_error: 0.1955 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 12/50
+26/26 [==============================] - ETA: 0s - loss: 0.1974 - mean_squared_error: 0.1974
+Epoch 12: val_loss did not improve from 0.19597
+26/26 [==============================] - 202s 8s/step - loss: 0.1974 - mean_squared_error: 0.1974 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 13/50
+26/26 [==============================] - ETA: 0s - loss: 0.1903 - mean_squared_error: 0.1903
+Epoch 13: val_loss did not improve from 0.19597
+26/26 [==============================] - 201s 8s/step - loss: 0.1903 - mean_squared_error: 0.1903 - val_loss: 0.1960 - val_mean_squared_error: 0.1960
+Epoch 14/50
