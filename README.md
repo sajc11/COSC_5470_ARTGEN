@@ -4,9 +4,16 @@ Developers: Sophia (Alivia) Castor, Eli Kerstein
 Net IDs: soc11, ewk33
 
 ## Project Overview
-This project demonstrates how to generate surrealist and abstract art from audio spectrogram inputs, such as:
+This project demonstrates how to generate surrealist and abstract art from audio spectrogram inputs:
 
-It leverages a self-trained Convolutional Neural Network (CNN) to predict mood metrics (valence and energy) from music spectrograms, which are then used to modulate a latent vector as a condition to a Generative Adversarial Network (GAN) generator, producing corresponding surrealist/abstract artwork. 
+To transform this:
+![Accept - Stalingrad](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/198dd3a1-ce0c-475e-9ec9-595b86f0d09f)
+
+To this:
+
+![download-1](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/4b6d5159-14b9-4ea2-8e35-19fe811baaca)
+
+Our project leverages a self-trained Convolutional Neural Network (CNN) to predict mood metrics (valence and energy) from music spectrograms, which are then used to modulate a latent vector as a condition to a Generative Adversarial Network (GAN) generator, producing corresponding surrealist/abstract artwork. 
 The project comprises several Jupyter notebooks including ```CNN_Training.ipynb``` and ```GAN_Training.ipynb``` to train the models and ```GAN_Future_Implementations.ipynb``` which holds future development improvements, each covering different aspects of the workflow.
 
 This repo contains the full dataset used as well as some of our training graphs, logs, and snapshots of our final results-- aka the abstract images generated using the GAN from the CNN and spectrograph conditions. Additionally, this repo contains the ```.ipnyb``` files for all of the code used to conduct this project. Each file contains descriptions and inline code comments of the goals and the functions of the code within the respective file. Unfortunately, we are unable to upload the pre-trained and saved models for the CNN and GAN due to their large file size! 
@@ -22,7 +29,7 @@ Within the repo, under ```resources/presentation_ppt```, there is a PDF to our p
    * The data gathered from this step is stored in the song_metadata.csv.
 5. **CNN Training:** The ```CNN_Training.ipynb``` notebook in the ```/src``` folder trains a Convolutional Neural Network model to predict mood metrics (valence and energy) from music spectrograms.
    The CNN was trained on metadata and spectrographs from more than 400 popular songs from a wide range of genres.
-   ![Blue Sky Black Death - Gold In Gold Out](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/69afd556-55d7-4742-ae95-91a866b63c49)![Accept - Stalingrad](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/198dd3a1-ce0c-475e-9ec9-595b86f0d09f)![65daysofstatic - Tiger Girl](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/9acca507-fe3c-477d-a8e0-a9eb774da3e2)
+   ![Blue Sky Black Death - Gold In Gold Out](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/69afd556-55d7-4742-ae95-91a866b63c49)![65daysofstatic - Tiger Girl](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/9acca507-fe3c-477d-a8e0-a9eb774da3e2)
 6. **GAN Training:** The ```GAN_Training.ipynb``` notebook in the ```/src``` folder trains a GAN generator to synthesize surrealist art from latent vectors, including training loops, visualization tools, and model checkpoints.
    * The GAN was trained on over 9000 images of Abstract and Surrealist Art
    ![Screenshot 2024-05-01 at 9 22 20 PM](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/2086b4d2-2f64-412d-96cf-f360415bbb10)
