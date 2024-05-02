@@ -82,7 +82,7 @@ We hope such results will end up looking somewhat like this:
 
 ![giphy](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/0b90807e-b25a-4ab2-872a-7d65df2cda30)
 
-  Available in ```GAN_Future_Implementations.ipynb```
+  Additional code updates will be available in ```GAN_Future_Implementations.ipynb```
 1. **Advanced Audio Processing:** Incorporate additional audio features, such as rhythm patterns or pitch, to enrich the input data, leading to more dynamic art generation.
 2. **Web Integration:** Extend the recording interface to integrate directly with streaming platforms or music applications, allowing for continuous, dynamic art generation.
 3. **Interactive Art Gallery:** Archive and display generated art in an interactive gallery, integrating with web applications or augmented reality for enhanced user experiences.
