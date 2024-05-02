@@ -8,21 +8,25 @@ The project comprises several Jupyter notebooks including ```CNN_Training.ipynb`
 This Repo contains the dataset used as well as some of our training graphs, logs, and snapshots of our final results-- aka the abstract images generated using the GAN from the CNN and spectograph conditions. Unfortunately, we were unable to upload the saved models for the CNN and GAN due to their large file size! 
 
 ## Features
-1. **CNN Training:** The CNN_Training.ipynb notebook trains a Convolutional Neural Network model to predict mood metrics (valence and energy) from music spectrograms.
-   The CNN was trained on metadata and spectographs from more than 400 popular songs from a wide range of genres.
+1. **Generating Spectrograms:**
+   The Generate_Spectrogtam.ipynb takes in each mp3 file from the dataset of songs, and samples a 30-second clip. We sample only a segment of the song as it is very computationally intensive to convert the entire audio track. We then use the fast fourier transform to create a spectrographic representation of each audio clip, giving valuable information about the prevalent frequencies in the track as well as the temporal dynamics.
+   * The data gathered from this step is stored in the spectrogram folder
+3. **Obtaining Spotify Data:** 
+   The Spotify_Data.ipynb uses the Spotify API to get the metadata corresponding to each song. We get the valence, energy, and genre, and write each one to a spreadsheet that will act as labels for the spectrograms. If a song doesn't have sufficient metadata, then we don't put it in the spreadsheet.
+   * The data gathered from this step is stored in the song_metadata.csv.
+5. **CNN Training:** The CNN_Training.ipynb notebook trains a Convolutional Neural Network model to predict mood metrics (valence and energy) from music spectrograms.
+   The CNN was trained on metadata and spectrographs from more than 400 popular songs from a wide range of genres.
    ![Blue Sky Black Death - Gold In Gold Out](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/69afd556-55d7-4742-ae95-91a866b63c49)![Accept - Stalingrad](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/198dd3a1-ce0c-475e-9ec9-595b86f0d09f)![65daysofstatic - Tiger Girl](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/9acca507-fe3c-477d-a8e0-a9eb774da3e2)
-
-3. **GAN Training:** The GAN_Training.ipynb notebook trains a GAN generator to synthesize surrealist art from latent vectors, including training loops, visualization tools, and model checkpoints.
-4. The GAN was trained on over 9000 images of Abstract and Surrealist Art
+6. **GAN Training:** The GAN_Training.ipynb notebook trains a GAN generator to synthesize surrealist art from latent vectors, including training loops, visualization tools, and model checkpoints.
+   * The GAN was trained on over 9000 images of Abstract and Surrealist Art
    ![Screenshot 2024-05-01 at 9 22 20 PM](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/2086b4d2-2f64-412d-96cf-f360415bbb10)
    ![Screenshot 2024-05-01 at 9 22 39 PM](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/8cf4a1f1-c14c-454a-8467-5d6647c258c6)
-
-6. **Real-Time Art Generation:** The GAN_Future_Implementations.ipynb notebook implements the real-time art generator:
+7. **Real-Time Art Generation:** The GAN_Future_Implementations.ipynb notebook implements the real-time art generator:
       * **Audio Recording:** Provides an HTML interface to record audio directly in the notebook, saving recordings as WebM files and converting them to WAV format.
       * **Spectrogram Generation:** Converts the recorded audio into Mel spectrograms using the Librosa library.
       * **Mood Prediction:** Uses the pre-trained CNN model to predict mood metrics (valence and energy) from the spectrogram.
       * **Art Generation:** Modulates a latent vector with the mood metrics, passing it to the GAN generator to produce corresponding artwork.
-      * **Visualization:** Displays the generated artwork in real time on a Matplotlib plot, updating dynamically as new audio is recorded and processed.
+      * **Visualization:** Displays the generated artwork in real-time on a Matplotlib plot, updating dynamically as new audio is recorded and processed.
 
 ## Results
 ### Spectrogram-to-Art Generation:
