@@ -4,12 +4,12 @@ Developers: Sophia (Alivia) Castor, Eli Kerstein
 Net IDs: soc11, ewk33
 
 ## Project Overview
-This project demonstrates how to generate surrealist and abstract art from audio spectrogram inputs:
+This project demonstrates how to generate abstract/surrealist art from audio spectrogram inputs.
 
-To transform this:
+The goal of our project is to take in the following:
 ![Accept - Stalingrad](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/198dd3a1-ce0c-475e-9ec9-595b86f0d09f)
 
-To this:
+And transform that spectrograph into art, such as this:
 
 ![download-1](https://github.com/sajc11/COSC_5470_ARTGEN/assets/117310329/4b6d5159-14b9-4ea2-8e35-19fe811baaca)
 
